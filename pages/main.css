@@ -40,3 +40,5 @@
 @import'../blocks/two-columns/__paragraph/two-columns__paragraph.css';
 @import'../blocks/two-columns/__span-accent/two-columns__span-accent.css';
 @import'../blocks/two-columns/___brief/two-columns__brief.css';
+@import'../blocks/animated-link/animated-link.css';
+@import'../blocks/rotation/rotation.css';
