@@ -1,4 +1,4 @@
-@import'../index.css';
+@import'../vendor/normalize.css';
 @import'../blocks/description/description.css';
 @import'../blocks/digits/digits.css';
 @import'../blocks/feyman/feyman.css';
