@@ -2,15 +2,13 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
-} 
+}
 
 
-.rotation:hover{
-    animation: rotation 20s linear infinite;
-    }
-
-
-
+rotation {
+    animation: rotation linear infinite 20s;
+}
