@@ -16,6 +16,5 @@
 - Статичная верстка.
 - Структура проекта по *БЭМ*
 
-
 ## Ссылка GitHub Pages
 [How to learn](https://maksnikulnikov.github.io/how-to-learn/)
