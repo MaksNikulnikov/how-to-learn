@@ -10,3 +10,18 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+@media (max-width:1280px) {
+  .header__subtitle {
+    max-width: calc(388px - (1280px - 100vw) / (1280 - 320) * (388 - 272));
+    line-height: calc(25px - (1280px - 100vw) / (1280 - 320) * (25 - 15));
+    font-size: calc(18px - (1280px - 100vw) / (1280 - 320) * (18 - 12));
+  }
+}
+
+@media (max-width:1000px) {
+  .header__subtitle {
+    top: 132px;
+    left: calc(64px - (1000px - 100vw) / (1000 - 320) * (64 - 24));
+  }
+}

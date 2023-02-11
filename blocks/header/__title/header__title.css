@@ -7,3 +7,19 @@
   font-weight: 600;
   line-height: 96px;
 }
+
+@media (max-width:1280px) {
+  .header__title {
+    font-size: calc(102px - (1280px - 100vw) / (1280 - 320) * 60);
+    line-height: calc(96px - (1280px - 100vw) / (1280 - 320) * 60);
+    max-width: calc(730px - (1280px - 100vw) / (1280 - 320) * 480);
+  }
+}
+
+@media (max-width:480px) {
+  .header__title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
