@@ -6,3 +6,10 @@
   text-align: center;
   margin: 0 0 20px 0;
 }
+
+@media (max-width:1280px) {
+  .section-title{
+    font-size: calc(60px - (1280px - 100vw) / (1280 - 320) * (60 - 48));
+    width: calc(60% + (1280px - 100vw) / 8);
+  }
+}

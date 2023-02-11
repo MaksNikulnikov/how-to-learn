@@ -3,3 +3,10 @@
     height: 316px;
     border: none;
 }
+
+@media (max-width:595px) {
+    .video__iframe{
+      height: calc(316px - (595px - 100vw) / (595 - 320) * (316 - 220));
+      width: calc(515px - (595px - 100vw) / (595 - 320) * (515 - 296));
+    }
+  }

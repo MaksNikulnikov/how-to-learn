@@ -7,3 +7,12 @@
   font-size: 18px;
   margin: 0;
 }
+
+@media (max-width:1280px) {
+  .two-columns__brief {
+    max-width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: calc(36px - (1280px - 100vw) / (1280 - 320) * (36 - 24));
+  }
+}

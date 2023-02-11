@@ -8,3 +8,13 @@
   font-weight: normal;
   text-decoration: none;
 }
+
+@media (max-width:1280px) {
+  .feynman__link{
+    padding: 3px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    font-size: calc(36px - (1280px - 100vw) / (1280 - 320) * (36 - 24));
+    line-height: calc(51px - (1280px - 100vw) / (1280 - 320) * (51 - 31));
+  }
+}

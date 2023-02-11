@@ -6,3 +6,9 @@
   text-align: center;
   margin: 0;
 }
+
+@media (max-width:1280px) {
+  .section-subtitle{
+    width: calc(60% + (1280px - 100vw) / 8);
+  }
+}

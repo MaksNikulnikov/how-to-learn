@@ -16,8 +16,8 @@
     }
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 696px) {
     .cards {
-        grid-template-columns: repeat(2, 250px);
+        grid-template-columns: 250px;
     }
 }

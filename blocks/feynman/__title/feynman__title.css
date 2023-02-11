@@ -7,3 +7,10 @@
   text-align: center;
   margin: 0;
 }
+
+@media (max-width:1280px) {
+  .feynman__title {
+    max-width: calc(648px - (1280px - 100vw) / (1280 - 320) * (648 - 286));
+    font-size: calc(120px - (1280px - 100vw) / (1280 - 320) * (120 - 48));
+  }
+}

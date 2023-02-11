@@ -1,7 +1,15 @@
 .logo_place_header {
   background-image: url(../../../images/logo_place_header.svg);
+  background-size: cover;
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 1;
+}
+
+@media (max-width:1280px) {
+  .logo_place_header {
+    top: calc(30px - (1280px - 100vw) / (1280 - 320) * (30 - 10));
+    left: calc(64px - (1280px - 100vw) / (1280 - 320) * (64 - 12));
+  }
 }

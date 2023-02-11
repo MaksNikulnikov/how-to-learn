@@ -12,3 +12,10 @@
   padding: 100px 0 0 0;
   box-sizing: border-box;
 }
+
+@media (max-width:1280px) {
+  .feynman {
+    background-size: calc(867px - (1280px - 100vw) / (1280 - 320) * (867 - 220)) calc(637px - (1280px - 100vw) / (1280 - 320) * (637 - 158));
+    min-height: calc(890px - (1280px - 100vw) / (1280 - 320) * (890 - 445));
+  }
+}

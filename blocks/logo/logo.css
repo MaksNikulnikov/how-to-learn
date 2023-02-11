@@ -2,3 +2,10 @@
   width: 228px;
   height: 32px;
 }
+
+@media (max-width:1280px) {
+  .logo {
+    width: calc(228px - (1280px - 100vw) / (1280 - 320) * (228 - 180));
+    height: calc(32px - (1280px - 100vw) / (1280 - 320) * (32 - 24));
+  }
+}
