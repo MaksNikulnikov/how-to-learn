@@ -4,3 +4,10 @@
     font-weight: normal;
     margin: 0;
 }
+
+@media (max-width:1280px) {
+    .khan__author {
+        font-size: calc(30px - (1280px - 100vw) / (1280 - 320) * (30 - 24));
+        line-height: calc(42px - (1280px - 100vw) / (1280 - 320) * (42 - 34));
+    }
+}

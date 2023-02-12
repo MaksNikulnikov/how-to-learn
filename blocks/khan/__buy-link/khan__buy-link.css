@@ -6,3 +6,11 @@
    text-decoration: none;
    display: block;
 }
+
+@media (max-width:1280px) {
+   .khan__buy-link {
+       font-size:calc(30px - (1280px - 100vw) / (1280 - 320) * (30 - 22));
+       line-height: calc(42px - (1280px - 100vw) / (1280 - 320) * (42 - 30));
+       margin-right: calc(48px - (1280px - 100vw) / (1280 - 320) * (48 - 16));
+   }
+}

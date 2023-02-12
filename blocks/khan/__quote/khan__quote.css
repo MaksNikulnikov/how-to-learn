@@ -6,3 +6,10 @@
     font-size: 24px;
     font-weight: normal;
 }
+
+@media (max-width:1280px) {
+    .khan__quote {
+        font-size: calc(24px - (1280px - 100vw) / (1280 - 320) * (24 - 18));
+        line-height: calc(34px - (1280px - 100vw) / (1280 - 320) * (34 - 22));
+    }
+}

@@ -4,3 +4,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width:1280px) {
+    .resources {
+        margin-bottom: calc(217px - (1280px - 100vw) / (1280 - 320) * (217 - 80));
+    }
+ }

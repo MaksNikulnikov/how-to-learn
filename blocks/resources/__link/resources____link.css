@@ -2,3 +2,9 @@
    display: block;
    margin: 0;
 }
+
+@media (max-width:1280px) {
+   .resources__link {
+      margin-top: calc(80px - (1280px - 100vw) / (1280 - 320) * (80 - 24));
+   }
+}
